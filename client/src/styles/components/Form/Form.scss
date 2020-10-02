@@ -1,0 +1,38 @@
+.form{
+    &__content{
+        margin: 1rem 3rem;
+        background-color: #FF876F;
+        border-radius: 4px;
+    }
+
+    &__container{
+        padding: 1.5rem 1rem;
+    }
+
+    &__header{
+        color: #FFFFFF;
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+
+    &__body{
+        padding-top: 0.8rem;
+    }
+
+    &__label{
+        color: #FFFFFF;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    &__item{
+        margin-bottom: 0.5rem;
+    }
+
+    &__button{
+        padding: 0.5rem 0.8rem;
+        border-radius: 4px;
+        border: none;
+    }
+}

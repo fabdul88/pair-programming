@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+
+    &__main{
+        width: 75%;
+    }
+
+    &__minor{
+        width: 25%;
+        position: relative;
+        margin-left: auto;
+        // padding: 2rem 3rem;
+    }
+}
