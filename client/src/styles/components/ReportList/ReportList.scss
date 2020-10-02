@@ -1,22 +1,37 @@
-.report{
-    &__content{
-        margin: 1.5rem 3rem;
-        background-color: #F2F2F2;
-        border-radius: 4px;
-    }
+.report {
+  &__content {
+    margin: 1.5rem 3rem;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
 
-    &__container{
-        padding: 1.5rem 1rem;
-    }
+  &__container {
+    padding: 1.5rem 1rem;
+  }
 
-    &__header{
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
+  &__header {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-    &__card{
-        background-color: #FFFFFF;
-        border-radius: 4px;
-        margin-top: 1rem;
-    }
+  &__card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  &__label {
+    font-weight: 900;
+    margin: 20px;
+    margin-left: 5px;
+  }
+  &__p {
+    margin: 20px;
+    margin-left: 5px;
+    color: #000;
+  }
+  &__back {
+    background-color: #ff876f;
+    border: 4px;
+    color: #ffffff;
+  }
 }

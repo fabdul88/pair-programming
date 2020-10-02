@@ -1,10 +1,16 @@
 .header {
-    padding: 2rem 2.5rem;
-    display: block;
-    background-color: #FF876F;
-    color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  background-color: #ff876f;
+  color: #ffffff;
 
-    &__logo{
-        font-size: 1.8rem;
-    }
+  &__logo {
+    font-size: 1.8rem;
+    margin-left: 50px;
+  }
+  &__logo-image {
+    width: 50px;
+    height: 50px;
+  }
 }
